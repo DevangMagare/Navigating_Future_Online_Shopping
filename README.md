@@ -3,7 +3,7 @@
 📊 Navigating_Future_Online_Shopping Project (Python & SQL)
 🔍 Project Overview
 
-This project analyzes an e-commerce dataset to extract business insights using SQL (MySQL) and Python (Pandas & Matplotlib).
+This project analyzes an Online_Shopping dataset to extract business insights using SQL (MySQL) and Python (Pandas & Matplotlib).
 The goal is to understand customer behavior, sales performance, retention patterns, and overall business trends.
 
 
