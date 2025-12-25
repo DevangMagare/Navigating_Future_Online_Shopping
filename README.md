@@ -1,6 +1,6 @@
 # Navigating_Future_Online_Shopping
 
-📊 E-Commerce Data Analysis Project (Python & SQL)
+📊 Navigating_Future_Online_Shopping Project (Python & SQL)
 🔍 Project Overview
 
 This project analyzes an e-commerce dataset to extract business insights using SQL (MySQL) and Python (Pandas & Matplotlib).
@@ -19,7 +19,7 @@ Data Format: CSV files
 
 📁 Dataset Description
 
-The project uses a multi-table e-commerce dataset containing:
+The project uses a multi-table Online_Shopping dataset containing:
 
 Customers
 
@@ -35,7 +35,7 @@ Sellers
 
 Geolocation
 
-The dataset represents real-world e-commerce transactions and customer activity.
+The dataset represents real-world online shopping transactions and customer activity.
 
 🧩 SQL Analysis (MySQL)
 ✔ Basic Analysis
@@ -106,9 +106,9 @@ A small number of customers contribute significantly to revenue
 Sales show clear seasonal and yearly trends
 
 📂 Project Structure
-📁 E-Commerce-Data-Analysis
+📁 Navigating_Future_Online_Shopping
 │
-├── 📄 Ecommerce_Final_Python_Internship.ipynb
+├── 📄 Navigating_Future_Online_Shopping_Internship.ipynb
 ├── 📄 SQL_Queries.sql
 ├── 📄 customers.csv
 ├── 📄 orders.csv
