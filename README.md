@@ -1,150 +1,182 @@
 # Navigating_Future_Online_Shopping
 
-📊 Navigating_Future_Online_Shopping Project (Python & SQL)
-🔍 Project Overview
+Navigating the Future of Online Shopping
+SQL & Python Internship Project
+Project Overview
 
-This project analyzes an Online_Shopping dataset to extract business insights using SQL (MySQL) and Python (Pandas & Matplotlib).
-The goal is to understand customer behavior, sales performance, retention patterns, and overall business trends.
+This project focuses on analyzing a real-world Online Shopping (E-commerce) dataset to extract meaningful business insights using SQL (MySQL) and Python (Pandas & Matplotlib).
 
+The main objective of this project is to understand customer behavior, sales performance, customer retention patterns, and overall business trends by answering analytical questions using SQL and validating insights through Python-based analysis and visualization.
 
-🛠️ Tools & Technologies Used
+Tools & Technologies Used
 
-SQL: MySQL Workbench
+🔹SQL: MySQL Workbench
 
-Python: Pandas, Matplotlib
+🔹Python: Pandas, Matplotlib
 
-Notebook: Jupyter / Google Colab
+🔹Notebook Environment: Jupyter Notebook / Google Colab
 
-Data Format: CSV files
+🔹Data Format: CSV files
 
-📁 Dataset Description
+Dataset Description
 
-The project uses a multi-table Online_Shopping dataset containing:
+The project uses a multi-table Online Shopping dataset consisting of the following files:
 
-Customers
+🔹Customers
 
-Orders
+🔹Orders
 
-Order Items
+🔹Order Items
 
-Payments
+🔹Payments
 
-Products
+🔹Products
 
-Sellers
+🔹Sellers
 
-Geolocation
+🔹Geolocation
 
-The dataset represents real-world online shopping transactions and customer activity.
+This dataset represents real-world e-commerce transactions, including customer details, order history, product information, seller data, and payment records.
 
-🧩 SQL Analysis (MySQL)
-✔ Basic Analysis
+SQL Analysis (MySQL)
 
-Customers distribution by state
+SQL was used to perform structured data analysis by writing queries across multiple tables using joins, aggregations, and window functions.
 
-Orders count by year
+Basic Analysis
 
-Total sales by product category
+🔹Customer distribution by state
 
-✔ Intermediate Analysis
+🔹Number of orders by year
 
-Monthly sales trends
+🔹Total sales by product category
 
-Seller-wise revenue analysis
+Intermediate Analysis
 
-Average order value
+🔹Monthly sales trends
 
-✔ Advanced Analysis
+🔹Seller-wise revenue analysis
 
-Cumulative monthly sales
+🔹Average order value calculation
 
-Year-over-Year (YoY) sales growth
+Advanced Analysis
 
-Customer retention rate (within 6 months)
+🔹Cumulative monthly sales
 
-Top 3 customers by total spending
+🔹Year-over-Year (YoY) sales growth
 
-📌 Key Insight:
-Customer retention was calculated using customer_unique_id instead of customer_id to correctly identify repeat customers.
+🔹Customer retention rate within 6 months
 
-🐍 Python Analysis (Pandas & Matplotlib)
+🔹Top 3 customers by total spending
+
+Important Note:
+Customer retention was calculated using customer_unique_id instead of customer_id to correctly identify repeat customers across multiple orders.
+
+Python Analysis (Pandas & Matplotlib)
 
 Python was used for data exploration and visualization, not database operations.
+The purpose of Python analysis was to visually validate and support insights derived from SQL.
 
-Key Tasks:
+Key Tasks Performed
 
-Loading and exploring datasets using Pandas
+🔹Loading and exploring datasets using Pandas
 
-Analyzing customer and order patterns
+🔹Cleaning and transforming data where required
 
-Visualizing trends using bar charts and line plots
+🔹Analyzing customer and order patterns
 
-Understanding cumulative sales and growth trends
+🔹Creating visualizations for trend analysis
 
-Visualizations Include:
+Visualizations Included
 
-Customers by state
+🔹Customers by state
 
-Orders per year
+🔹Orders per year
 
-Monthly order trend
+🔹Monthly order trends
 
-Top product categories by revenue
+🔹Top product categories by revenue
 
-Top sellers by revenue
+🔹Top sellers by revenue
 
-Cumulative sales over time
+🔹Cumulative sales over time
 
-📈 Key Business Insights
+🔹Customer retention visualization
 
-Majority of customers are one-time buyers
+Key Business Insights
 
-Customer retention within 6 months is low (~2.3%)
+🔹Majority of customers are one-time buyers
 
-A small number of customers contribute significantly to revenue
+🔹Customer retention within 6 months is low (approximately 2.3%)
 
-Sales show clear seasonal and yearly trends
+🔹A small percentage of customers contribute significantly to total revenue
 
-📂 Project Structure
-📁 Navigating_Future_Online_Shopping
-│
-├── 📄 Navigating_Future_Online_Shopping_Internship.ipynb
-├── 📄 SQL_Queries.sql
-├── 📄 customers.csv
-├── 📄 orders.csv
-├── 📄 order_items.csv
-├── 📄 products.csv
-├── 📄 sellers.csv
-├── 📄 payments.csv
-├── 📄 geolocation.csv
-└── 📄 README.md
+🔹Sales show clear seasonal and yearly trends
 
-🚀 How to Run the Project
+🔹Identifying high-value customers and sellers can help improve business strategy
 
-Clone the repository
+Project Structure
 
-Open the Jupyter Notebook (.ipynb) in Jupyter or Google Colab
+The project consists of the following files:
 
-Upload all CSV files, Link In Word File
+🔹Navigating_Future_Online_Shopping_Internship.ipynb
+Contains complete Python analysis and visualizations.
 
-Run cells sequentially
+🔹SQL_Queries.sql
+Includes all SQL queries used for basic, intermediate, and advanced analysis.
 
-For SQL:
+🔹customers.csv
+Customer-level information including location data.
 
-Import CSV files into MySQL
+🔹orders.csv
+Order details such as order dates and status.
 
-Run queries in MySQL Workbench
+🔹order_items.csv
+Product-level details for each order including price.
 
-🎯 Learning Outcomes
+🔹products.csv
+Product and product category information.
 
-Hands-on experience with real-world data
+🔹sellers.csv
+Seller-related details.
 
-Strong understanding of SQL joins, aggregations, and window functions
+🔹payments.csv
+Payment values and transaction details.
 
-Practical use of Python for data analysis & visualization
+🔹geolocation.csv
+Geographical information of customers.
 
-Ability to derive and explain business insights
+🔹README.md
+Project documentation and explanation.
 
-👤 Author
+How to Run the Project
+Python
+
+🔹Clone the repository
+
+🔹Open the Jupyter Notebook (.ipynb) in Jupyter Notebook or Google Colab
+
+🔹Upload all CSV files in the same directory
+
+🔹Run the notebook cells sequentially
+
+SQL
+
+🔹Import CSV files into MySQL
+
+🔹Open MySQL Workbench
+
+🔹Execute SQL queries from the provided SQL file
+
+Learning Outcomes
+
+🔹Hands-on experience with real-world e-commerce data
+
+🔹Strong understanding of SQL joins, aggregations, and window functions
+
+🔹Practical experience using Python for data analysis and visualization
+
+🔹Ability to derive, validate, and explain business insights
+
+Author
 
 Devang Magare
